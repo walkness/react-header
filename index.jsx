@@ -2,9 +2,6 @@ import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 import { routerShape } from 'react-router/lib/PropTypes';
 
-import Dropdown, { DropdownMenu, DropdownToggle } from '../Dropdown';
-import NavLink from '../NavLink';
-
 
 class Header extends Component {
 
@@ -59,8 +56,6 @@ class Header extends Component {
             <div className={`collapse navbar-collapse${ collapsed ? '' : ' in' }`} id="navbar-collapse">
 
               <ul className='nav navbar-nav navbar-right'>
-
-                <NavLink to='/'>Home</NavLink>
 
               </ul>
 
